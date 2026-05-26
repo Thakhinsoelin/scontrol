@@ -12,9 +12,9 @@ This document outlines the requirements and steps to build the SControl project 
 
 Ensure the following tools are installed on your system:
 
-- C++17 compliant compiler (e.g., MSVC, GCC, or Clang)
+- C++23 compliant compiler (e.g., MSVC, GCC, or Clang)
 - CMake (version 3.10 or higher)
-- OpenGL development libraries
+- OpenGL development libraries(don't require on windows)
 
 ---
 
@@ -23,7 +23,7 @@ Ensure the following tools are installed on your system:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Thakhinsoelin/scontrol.git
 cd scontrol
 ```
 
